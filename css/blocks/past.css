@@ -1,0 +1,119 @@
+.past__item {
+    width: 557px;
+    height: 394px;
+    margin-left: 11px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.past__item :last-child {
+    margin-left: 0px;
+}
+
+.past__disc {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    padding-left: 35px;
+    padding-bottom: 17px;
+}
+
+.past__date {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 248px;
+    
+}
+
+h3 {
+   margin-top: 20px;
+   margin-bottom: 17px;
+}
+.past__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.paginator {
+    text-align: center;
+    padding-top: 53px;
+}
+
+.paginator__display, .paginator__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__display {
+    margin-right: 26px;
+}
+
+.paginator__item {
+display: inline-block;
+vertical-align: middle;
+}
+
+.paginator__item--active .paginator__link {
+    background: rgb(143, 0, 255);
+}
+
+.paginator__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+
+/*
+.past__list {
+    display:inline-block;
+    width: 1140px;
+    height: 400px;
+    margin-right: 12px;
+}
+
+.past__item--january {
+    background: url(../../img/january.png) ;
+    width: 527px; 
+    height: 394px;
+    background-repeat: no-repeat;
+}
+
+.past__item--spring {
+    background-image: url(../../img/spring.png) ;
+    width: 527px; 
+    height: 394px;
+    background-repeat: no-repeat;
+   
+}
+
+.past__date {
+    padding-left: 25px;
+    padding-top: 208px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.past__text {
+    width: 477px;
+    height: 61px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+*/

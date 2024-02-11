@@ -1,0 +1,109 @@
+@import url(./normalize.css);
+@import url(./base.css);
+@import url(./blocks/header.css);
+@import url(./blocks/description.css);
+@import url(./blocks/actual.css);
+@import url(./blocks/past.css);
+@import url(./blocks/about.css);
+@import url(./blocks/footer.css);
+
+/*
+body {
+    font-family: Open Sans, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14 px;
+    line-height: 1.42 px;
+    background: url(/img/fon.jpeg);
+    -webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper__content{
+margin: 0 auto;
+width: 1042px;
+}
+
+a {
+    color: inherit;
+}
+ 
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+margin: 0px;
+font-weight: normal;
+}
+
+header {
+    height: 100 px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 34 px;
+    left: 0px;
+}
+
+.menu {
+    position: absolute;
+    top: 34px;
+    left: 200px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contacts {
+    font-style: normal;
+    position: absolute;
+    text-align: right;
+    top: 26px;
+    right: 0;
+}
+
+.contact__phone {
+    font-size: 26px;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+}
+
+.container description__container {
+    weight: 637px;
+    height: 194px;
+
+}
+
+.description__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.description__subtitle {
+    font-size: 21px;
+}
+*/

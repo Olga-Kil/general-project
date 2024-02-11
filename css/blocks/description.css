@@ -1,0 +1,24 @@
+.description {
+    position: relative;
+    width: 637 px;
+    height: 373 px;
+    background: url(../img/nbgB77C1HAg\ 1.png);
+}
+
+.description__title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0px;    
+} 
+
+.description__subtitle {
+    padding-top: 21px;
+    width: 221px;
+    height: 97px;  
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+
