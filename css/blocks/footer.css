@@ -173,4 +173,6 @@ right: 265px;
     text-align: right;
 }
 
-
+.footer-container__content {
+    border-top: 1px solid rgba(255, 255, 255, 0.5) ; 
+ }
