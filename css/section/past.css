@@ -1,0 +1,133 @@
+.past__list {
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: space-between;
+}
+
+.past__item {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 557px;
+    height: 394px;
+    margin-left: 11px;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+
+.past__item :last-child {
+    margin-left: 0px;
+}
+
+.past__item--january {
+    background: url(../../img/january.png);
+    margin-right: 10px;
+}
+
+.past__item--spring {
+    background: url(../../img/spring.png);
+}
+
+.past__disc {
+    padding-left: 30px;
+}
+.past__date {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h3 {
+   margin-top: 20px;
+   margin-bottom: 17px;
+}
+.past__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.paginator, .paginator__list {
+    display: flex;
+}
+
+.paginator {
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.paginator__display {
+    margin-right: 35px;
+}
+
+.paginator__item {
+    margin-right: 24px;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.paginator__item:last-child {
+    margin-right: 0;
+}
+
+.paginator__link {
+    position: relative;
+}
+
+.paginator__link::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgb(143, 0, 255);
+    z-index: -1;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.paginator__link:hover::before {
+    opacity: 1;
+}
+
+/*page services */ 
+.paginator--services {
+    margin-top: 137px;
+    margin-left: 23px;
+    padding-bottom: 100px;
+}
+
+.partners {
+    background: rgb(244, 245, 245);
+    padding-top: 1px;
+    padding-bottom: 70px;
+}
+
+.partners__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    line-height: 65px;
+    margin-top: 78px;
+    margin-bottom: 73px;
+    
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parters__item {
+    width: 270px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}

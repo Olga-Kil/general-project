@@ -1,0 +1,84 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 391px;
+    height: 27px;
+    padding-top: 8px;
+  
+}
+
+.header__right {
+    display: flex;
+    text-decoration: none;
+}
+
+.contact__phone {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    font-style: normal;
+}
+
+.contacts__info {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+}
+
+/* Services page */
+
+.top-line {
+    min-height: 412 px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../img/nbgB77C1HAg1.png) center bottom 43% no-repeat;
+}
+
+.page-title {
+font-size: 72px;
+font-weight: 700;
+line-height: 98px;
+margin-top: 85px;
+margin-bottom: 0px;
+}
+
+.breadcrumbs__list {
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+    color: rgb(154, 154, 154);
+    padding-bottom: 15px;
+}
+
+.breadcrumbs__link {
+    text-decoration: underline;
+}
+
+.breadcrumbs__item--active {
+    font-weight: bold;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: rgb(154, 154, 154);
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}

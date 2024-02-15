@@ -10,24 +10,28 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="wrapper main-page-wrapper">
-        <div class="wrapper__content">
+    <div class="wrapper">
+        <div class="wrapper__content wrapper__content--main">
             <header class="header">
                 <div class="container header__container">
-                    <a href="/" class="logo">
-                        <img src="./img/Quiz-box.png" alt="Quiz-Box logo" class="logo__pic">
-                    </a>
-                    <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                    </ul>
-                    </nav>
-                    <address class="contacts">
-                        <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
-                        <div class="contacts__info">График работы</div>
-                    </address>
+                    <div class="header__left">
+                        <a href="/" class="logo">
+                            <img src="./img/Quiz-box.png" alt="Quiz-Box logo" class="logo__pic">
+                        </a>
+                    </div>
+                        <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="./index.html" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="./services.html" class="menu__link">Игры</a></li>
+                            <li class="menu__item"><a href="./rewiews.html" class="menu__link">Отзывы</a></li>
+                        </ul>
+                        </nav>
+                        <div class="header__right">
+                            <address class="contacts">
+                                <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
+                                <div class="contacts__info">График работы</div>
+                            </address>
+                    </div>
                 </div>
             </header>
             <main class="maincontent">
@@ -96,23 +100,23 @@
                                 <a href="#" class="button button--light">Смотреть</a>
                             </div>
                         </li>
-                    </ul>
+                    </ul> 
                 </div>
                 </section>
                 <section class="past">
                     <div class="container past__container">
                         <h2 class="title">Прошедшие игры</h2>
                         <ul class="past__list">
-                            <li class="past__item">
-                                <img src="./img/january.png" alt="january">
+                            <li class="past__item past__item--january">
+
                                 <div class="past__disc">
                                     <div class="past__date">1 января</div>
                                     <h3 class="past__title">Новогодний квиз</h3>
                                     <div class="past__text">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!</div>
                                 </div>
                             </li>
-                            <li class="past__item">
-                                <img src="./img/spring.png" alt="spring">
+                            <li class="past__item past__item--spring">
+                                
                                 <div class="past__disc">
                                     <div class="past__date">8 марта</div>
                                     <h3 class="past__title">Весенняя игра</h3>
@@ -146,67 +150,34 @@
                 </section>
             </main>
         </div>
-        <!--<footer class="footer-container">
-            <div class="container footer-container__content">
-                <div class="footer">
-                    <a href="/" class="logo">
-                        <img src="./img/Quiz-box.png" alt="" class="logo__pic">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list menu__list--footer">
-                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                        </ul>
-                        </nav>
-                        <ul class="socials">
-                            <li class="social__item social__item--icon-telegram">
-                                <a href="social__link"></a>
-                            </li>
-                            <li class="social__item social__item--icon-vk">
-                                <a href="social__link"></a>
-                            </li>
-                            <li class="social__item social__item--icon-fb">
-                                <a href="social__link"></a>
-                            </li>
-                            <li class="social__item social__item--icon-inst">
-                                <a href="social__link"></a>
-                            </li>
-                        </ul>
-                        <div class="footer__contacts">
-                            <div class="footer__description">Бесплатный звонок по России</div>
-                            <a href="tel:+78007003030" class="footer__phone">8 800 700 30 30</a>
-                        </div>
-                </div>
-            </div>
-        </footer>-->
-        
         <footer class="footer-container">
-            <div class="container">
-                <div class="footer">
+            <div class="container footer-container">
+                <div class="footer__left">
                     <a href="/" class="logo">
-                        <img src="./img/Quiz-box.png" alt="" class="logo__pic">
+                        <img src="./img/Quiz-box.png" alt="Quiz-Box logo" class="logo__pic">
                     </a>
                     <nav class="menu">
                     <ul class="menu__list menu__list--footer">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="./index.html" class="menu__link">Главная</a></li>
+                        <li class="menu__item"><a href="./services.html" class="menu__link">Игры</a></li>
+                        <li class="menu__item"><a href="./rewiews.html" class="menu__link">Отзывы</a></li>
                     </ul>
                     </nav>
-                    <div class="social">
-                        <ul class="social__list">
-                            <li class="social__icon social__icon--telegram"><a href="#" class="social__link"></a></li>
-                            <li class="social__icon social__icon--vk"><a href="#" class="social__link"></a></li>
-                            <li class="social__icon social__icon--facebook"><a href="#" class="social__link"></a></li>
-                            <li class="social__icon social__icon--telegram--inst"><a href="#" class="social__link"></a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__contacts">
-                        <div class="footer__description">Бесплатный звонок по России</div>
-                        <a href="tel:+78007003030" class="footer__phone">8 800 700 30 30</a>
-                    </div>
                 </div>
+                    <div class="footer__right">
+                        <div class="social">
+                            <ul class="social__list">
+                                <li class="social__icon social__icon--telegram"><a href="#" class="social__link"><img src="./img/telegram.png" alt="" class="social__jmg"></a></li>
+                                <li class="social__icon social__icon--vk"><a href="#" class="social__link"><img src="./img/vk.png" alt="" class="social__jmg"></a></li>
+                                <li class="social__icon social__icon--facebook"><a href="#" class="social__link"><img src="./img/f.png" alt="" class="social__jmg"></a></li>
+                                <li class="social__icon social__icon--telegram--inst"><a href="#" class="social__link"><img src="./img/in.png" alt="" class="social__jmg"></a></li>
+                            </ul>
+                        </div>
+                        <address class="contacts">
+                            <div class="contacts__info">Бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
+                        </address>
+                    </div>
             </div>
         </footer>
         
