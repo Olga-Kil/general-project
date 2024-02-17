@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     height: 93px;
-    margin-top: 10px;
+    margin-top: 55px;
+
     
 }
 
@@ -24,42 +25,16 @@
 /*page services */
 
 .footer-services {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
-
-
-/*.social__icon--telegram .social__link {
-    background-image: url(../../img/telegram.png);
+.footer-container {
+    height: 114px;
 }
 
-.social__icon--telegram .social__link:hover {
-    background-image: url(../../img/t_act.png);
+.footer__right-servises .contacts {
+    margin-top: -20px;
 }
-
-/*.social__item--icon-vk .social__link {
-    background-image: url(../../img/vk.png);
-}
-
-.social__item--icon-vk .social__link:hover {
-    background-image: url(../../img/vk_act.png);
-}
-
-.social__item--icon-fb .social__link {
-    background-image: url(../../img/f.png);
-}
-
-.social__item--icon-fb .social__link:hover {
-    background-image: url(../../img/f2_act.png);
-}
-
-.social__item--icon-inst .social__link {
-    background-image: url(../../img/in.png);
-}
-
-.social__item--icon-inst .social__link:hover {
-    background-image: url(../../img/in_act.png);
-}*/
 
 .social__list {
     display: flex;
@@ -67,15 +42,29 @@
 }
 
 .social__list:last-child {
-    padding-right: 50px;
+   margin-right: 60px;
 }
 .social__icon {
-    padding-right: 10px;
+  margin-right:-10px ;
     width: 56px;
     height: 56px;
 }
 
+.social__icon--telegram :hover {
+    background: url(../../img/t_act.png) no-repeat;
+}
 
+.social__icon--vk :hover{
+    background: url(../../img/vk_act.png) no-repeat;
+}
+
+.social__icon--facebook :hover{
+    background: url(../../img/f2_act.png) no-repeat;
+}
+
+.social__icon--inst :hover{
+    background: url(../../img/in_act.png) no-repeat;
+}
 
 
 

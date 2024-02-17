@@ -102,10 +102,15 @@ h3 {
     padding-bottom: 100px;
 }
 
+.paginator__link:hover {
+    color: #fff;
+}
+
 .partners {
     background: rgb(244, 245, 245);
     padding-top: 1px;
     padding-bottom: 70px;
+
 }
 
 .partners__title {
@@ -114,13 +119,16 @@ h3 {
     color: black;
     line-height: 65px;
     margin-top: 78px;
-    margin-bottom: 73px;
+    margin-bottom: 65px;
     
 }
 
 .partners__list {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -10px;
+    margin-left: -20px;
 }
 
 .parters__item {
@@ -130,4 +138,9 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    filter: grayscale(1);
+}
+
+.parters__item:hover {
+    filter: grayscale(0);
 }
