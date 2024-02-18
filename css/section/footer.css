@@ -3,8 +3,6 @@
     justify-content: space-between;
     height: 93px;
     margin-top: 55px;
-
-    
 }
 
 .footer__left {
@@ -20,6 +18,53 @@
 .footer__right {
     display: flex;
     justify-content: space-between;
+}
+
+.social__icon {
+    margin-right: 10px;
+}
+
+.social__icon :last-child {
+    margin-right: 0px;
+}
+
+.social__link {
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    display: flex;
+}
+
+.social__icon--telegram .social__link {
+    background: url(../../img/telegram.png);
+}
+
+.social__icon--telegram .social__link:hover {
+    background: url(../../img/t_act.png);
+}
+
+.social__icon--vk .social__link {
+    background: url(../../img/vk.png);
+}
+
+.social__icon--vk .social__link:hover{
+    background: url(../../img/vk_act.png);
+}
+
+.social__icon--facebook .social__link {
+    background: url(../../img/f.png);
+}
+
+.social__icon--facebook .social__link:hover{
+    background: url(../../img/f2_act.png);
+}
+
+.social__icon--inst .social__link {
+    background: url(../../img/in.png);
+}
+
+.social__icon--inst .social__link:hover {
+    background: url(../../img/in_act.png);
 }
 
 /*page services */
@@ -44,28 +89,3 @@
 .social__list:last-child {
    margin-right: 60px;
 }
-.social__icon {
-  margin-right:-10px ;
-    width: 56px;
-    height: 56px;
-}
-
-.social__icon--telegram :hover {
-    background: url(../../img/t_act.png) no-repeat;
-}
-
-.social__icon--vk :hover{
-    background: url(../../img/vk_act.png) no-repeat;
-}
-
-.social__icon--facebook :hover{
-    background: url(../../img/f2_act.png) no-repeat;
-}
-
-.social__icon--inst :hover{
-    background: url(../../img/in_act.png) no-repeat;
-}
-
-
-
-
